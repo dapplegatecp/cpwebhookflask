@@ -27,4 +27,4 @@ def webhook():
     return "", 403
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080, host='0.0.0.0', ssl_context=('cert/cert.pem', 'cert/key.pem'))
+    app.run(debug=True, port=8443, host='0.0.0.0', ssl_context=('cert/cert.pem', 'cert/key.pem'))
